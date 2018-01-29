@@ -1,0 +1,24 @@
+{
+  "name": "mds-multiplicator",
+  "version": "1.0.0",
+  "description": "Simple number multiplicator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnatty/mds-nodejs-cli-multiplicator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gnatty/mds-nodejs-cli-multiplicator/issues"
+  },
+  "homepage": "https://github.com/gnatty/mds-nodejs-cli-multiplicator#readme"
+}
