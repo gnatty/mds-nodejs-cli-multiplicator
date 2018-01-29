@@ -1,6 +1,6 @@
 {
   "name": "mds-multiplicator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple number multiplicator",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "minimist": "^1.2.0"
   },
   "bin": {
-    "snippet": "./index.js"
+    "mds-multi": "./index.js"
   },
   "devDependencies": {},
   "repository": {
