@@ -1,6 +1,6 @@
 {
   "name": "mds-multiplicator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple number multiplicator",
   "main": "index.js",
   "scripts": {

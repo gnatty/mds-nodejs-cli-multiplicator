@@ -1,10 +1,31 @@
 # Multiplicator
 
+# Installation
+
+```
+npm install -g mds-multiplicator
+```
+
+# Command
+
+```
+mds-multi [args1] [args2]
+```
+
+| argument name                 | expected value          | Example
+| ---                           | ---                     | ---
+| ```-t``` or ```--table```     | number or object number | 10 or [10] or [10, 8, 9]
+| ```-m``` or  ```--multi```    | number                  | 9 or 10 or 60
 
 # Example
 
 ```
-node multi 10 10
+# Cmd 1
+mds-multi -t 10 -m 10
+# Cmd 2
+mds-multi --table [10] -m 10
+# Cmd 3
+mds-multi --table [10, 9, 1] --multi 10
 
 # Output
 ┌───────┬───────────────┬────────┬───────────────────────────┐
@@ -38,3 +59,12 @@ node multi 10 10
 └───────┴───────────────┴────────┴───────────────────────────┘
 ```
 
+# Error Handling
+
+* If missing argument or wrong value giving an error will be throw.
+
+```
+Wrong arguments !
+Argument 1 must be an integer
+Argument 2 must be an integer
+```
