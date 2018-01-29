@@ -12,6 +12,9 @@
     "cli-table": "^0.3.1",
     "minimist": "^1.2.0"
   },
+  "bin": {
+    "snippet": "./index.js"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
