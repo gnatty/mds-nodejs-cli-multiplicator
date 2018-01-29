@@ -61,7 +61,7 @@ mds-multi --table [10, 9, 1] --multi 10
 
 # Error Handling
 
-* If missing argument or wrong value giving an error will be throw.
+* If missing argument or wrong value given an error will be throw.
 
 ```
 Wrong arguments !
